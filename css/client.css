@@ -1,0 +1,38 @@
+/****** Hero *********/
+.hero-client-text{flex-wrap: wrap;}
+.hero-client-text > p{width:50%;}
+.hero-client-text > p{box-shadow: 0 3px 0 rgba(0,0,0,0.1);}
+
+.hero-client-text > div{width: 60%;}
+
+
+/******** Recommendations ********/
+.rm-title > h2{width:50%;}
+.rm-title > h2{box-shadow: 0 3px 0 rgba(0,0,0,0.1);}
+
+/*=========== .rm-title - media ============*/
+@media (max-width: 880px){
+    .rm-title > h2{font-size:2.5em;}
+}
+@media (max-width: 740px){
+    .rm-title > h2{font-size:1.8em;}
+}
+@media (max-width: 550px){
+    .rm-title > h2{font-size:1.5em;}
+}
+@media (max-width: 450px){
+    .rm-title > h2{width:70%;}
+}
+/*===============================*/
+
+.card{box-shadow: 0 3px 0 rgba(0,0,0,0.1);}
+
+/******* Card ======== *****************/
+.rm-img{ border-radius: 100%;overflow: hidden;height: 13rem;width:13rem;-webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; }
+.checked{color:orange;}
+@media (max-width:768px){
+    .rm-img{width: 15rem;height:15rem;}
+}
+
+/**********************************/
+

@@ -1,0 +1,29 @@
+
+@media (max-width: 991px) {
+    hr{
+        position: relative;
+        bottom: 25px;
+    }
+}
+@media (min-width: 0px) and (max-width:995px){
+    #register{
+        right: 70px;
+    }
+     .phone{
+        visibility: hidden;
+        display: none;
+    }
+    .section-home-2 img{
+        width: 500px;
+        height: 400px;
+    }
+    .end-footer{
+        margin-top: 20px;
+    }
+}
+@media (max-width:1200px){
+    #sign_up, .img1, .img2{
+        visibility: hidden;
+        display: none;
+    }
+}

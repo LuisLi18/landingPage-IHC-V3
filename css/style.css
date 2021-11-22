@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+.section-home-2, .seccion-home-3{
+    margin-top: 100px;
+}
+.margen{
+    margin-right: 50px;
+}
+.size{
+    font-size: 16px;
+}
+li a{
+    text-transform: capitalize;
+}
+.section-home-1 .phone{
+    position: relative;
+    left: 160px;
+}
+.section-home-1 h1{
+    min-width: 500px;
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+} 
+.section-home-1 p, .section-home-2 p{
+    text-align:justify;
+    min-width: 500px;
+}
+.section-home-1 button{
+    position: relative;
+    left: 40px;
+}
+.section-home-2 h1{
+    min-width: 400px;
+}
+.seccion-home-3 h1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.seccion-home-3 .row{
+    text-align: center;
+}
+.seccion-home-3 button{
+    text-transform: capitalize;
+}
+.justificar{
+    text-align: justify;
+}
+.nav-item{
+    padding-right: 30px;
+}
+#register{
+    background:#5acd47;
+    font-weight:900;
+    font-size: 15px;
+    width: 400px;
+    border-radius: 5px;
+    height: 52px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    right: 40px;
+}
+.img1{
+    position: relative;
+    right: 205px;
+    top: 70px;
+}
+.img2{
+    position: relative;
+    left: 200px;
+    top: 70px;
+}
+.box{
+    background-color: rgba(246, 246, 246, 1);
+}
+.footer{
+    margin-top: 100px;
+}
+.end-footer h3{
+    font-size: medium;
+}
+.brand img{
+    width: 100px;
+}

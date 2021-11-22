@@ -1,0 +1,31 @@
+
+/*********** SERVICES **********/
+/* General ============ */
+*{box-sizing: border-box;margin:0;padding:0;}
+/* Header ============= */
+header{background:#F6F6F6;}
+.menu_nav > ul > li > a{color:#000;font-family: 'Montserrat', sans-serif;}
+.menu_nav > ul > li > a:hover{color:#5acd47;}
+.menu_nav > ul > li > a:active{color:#5acd47;}
+
+
+/* Hero ====================*/
+.fq{background:#fff}
+.fq-title{font-family: 'Montserrat', sans-serif;font-weight: 400;font-size: 3em;}
+.fq-title{
+    border-bottom: solid 1px #f6f6f6;
+    width: 50%;
+    box-shadow: 0 3px 0px rgba(0,0,0,0.1);
+}
+
+@media (max-width:730px){
+    .fq-title{
+        width: 80%;
+    }
+}
+
+
+
+
+
+

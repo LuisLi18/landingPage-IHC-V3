@@ -1,0 +1,17 @@
+.row{
+    margin-top: 50px;
+}
+.box{
+    height: 450px;
+}
+.box .container{
+    position: relative;
+    top: 70px;
+}
+.container p{
+    padding-top: 50px;
+    text-align: justify;
+}
+.modified img{
+    margin-left: 210px;
+}
